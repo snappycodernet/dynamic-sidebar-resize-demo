@@ -1,9 +1,11 @@
 .app-shell {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  align-content: center;
+  height: 300vh;
+  overflow: auto;
+  padding: 1em;
 }
 
 .app-shell h1 {
