@@ -1,0 +1,11 @@
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.app-shell h1 {
+  font-size: clamp(1em, 2em, 3em);
+}

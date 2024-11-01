@@ -1,0 +1,30 @@
+nav {
+  position: sticky;
+  padding: 1em;
+  background-color: gray;
+  height: 100vh;
+  border-bottom-right-radius: 1em;
+  border-top-right-radius: 1em;
+  min-width: 10vw;
+  max-width: 80vw;
+}
+
+.nav-gripper-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: red;
+  height: 100%;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-gripper {
+  background-color: white;
+  height: 120px;
+  width: 100%;
+  cursor: pointer;
+}
